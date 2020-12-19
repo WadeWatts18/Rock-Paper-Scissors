@@ -34,7 +34,7 @@ function reset () {
 	if(userScore == 5 || computerScore == 5){
 		
 		if(userScore == 5){
-			result_p.innerHTML = `USER WON!! <br>**GAME RESET**`;	
+			result_p.innerHTML = `${userName} WON!! <br>**GAME RESET**`;	
 		}
 		if(computerScore == 5){
 			result_p.innerHTML = `Computer WON!! <br>**GAME RESET**`;	
